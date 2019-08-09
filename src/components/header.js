@@ -1,13 +1,12 @@
 import { Link } from 'gatsby'
 import React from 'react'
 
-import { ReactComponent as Logo } from './logo.svg'
+import Logo from './logo.svg'
 
 const Header = ({ siteTitle = '' }) => (
   <header
     css={{
       background: '#FAFAFA',
-      marginBottom: '1.45rem',
       color: 'black',
     }}
   >
@@ -20,7 +19,7 @@ const Header = ({ siteTitle = '' }) => (
     >
       <h1 css={{ margin: 0 }}>
         <Link to="/" title={siteTitle}>
-          <Logo width={149} height={39} css={{ maxWidth: '100%' }} />
+          <img src={Logo} alt="BIM Bureauets logo" width={149} />
         </Link>
       </h1>
       <nav>
