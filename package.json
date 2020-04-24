@@ -1,0 +1,16 @@
+{
+  "name": "bim-bureauet-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:VilhelmNielsen/bim-bureauet-website.git",
+  "author": "Sebastian Vilhelm Nielsen <seb.vilhelm@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "tailwindcss": "^1.3.5"
+  }
+}
