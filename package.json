@@ -1,7 +1,7 @@
 {
   "name": "bim-bureauet-website",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.html",
   "repository": "git@github.com:VilhelmNielsen/bim-bureauet-website.git",
   "author": "Sebastian Vilhelm Nielsen <seb.vilhelm@gmail.com>",
   "license": "MIT",
