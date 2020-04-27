@@ -10,25 +10,34 @@
     <link href="./assets/css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <a
-      href="#main-content"
-      class="sr-only focus:not-sr-only block w-full text-center bg-orange-400 border-2 border-orange-500"
-    >
-      Spring til indholdet
-    </a>
-    <header class="bg-white h-16">
-      <div>Logo</div>
+    <div class="absolute w-full">
+      <a
+        href="#main-content"
+        class="sr-only focus:not-sr-only block w-full text-center bg-orange-400 border-2 border-orange-500"
+      >
+        Spring til indholdet
+      </a>
+    </div>
+    <header class="bg-white h-16 px-4 flex items-center">
+      <a href="/">
+        <span class="sr-only">Gå til forsiden</span>
+      <img src="/assets/img/logo.svg" alt="" height="38" width="150" />
+      </a>
+      <div class="flex-1"></div>
+      <nav class="flex space-x-4">
+        <a href="/">Forside</a>
+        <a href="/kontakt-os">Kontakt os</a>
     </header>
     <main id="main-content">
       <h1 class="sr-only">Bim Bureauet</h1>
-      <section class="bg-blue-700 text-white py-24">
+      <section class="bg-blue-700 text-white py-48">
         <div class="container mx-auto flex px-4">
           <div>
             <p class="text-3xl font-bold font-display mb-2">
               Har din virksomhed brug for eksperthjælp til jeres BIM-projekt?
             </p>
             <p class="mb-2">
-              Jeg hedder Lisbeth, og jeg har startet BIM Bureauet efter 10 år
+            Jeg hedder <span class="text-lg">Lisbeth</span>, og jeg har startet <span class="text-lg">BIM Bureauet</span> efter 10 år
               som underviser og support i BIM værktøjer, som Autodesk Revit, og
               +30 års erfaring med AutoCAD.
             </p>
@@ -37,14 +46,14 @@
               oprettelse af Revit Templates og Intelligente Revit Families, samt
               hjælp til opstart af BIM projekter.
             </p>
-            <p class="mb-2 font-bold">
+            <p class="mb-4 font-bold">
               Lad os sammen finde ud af, hvordan BIM Bureauet kan hjælpe med dit
               projekt.
             </p>
             <a
               href="#"
-              class="bg-orange-400 text-black w-32 py-1 inline-block text-center text-lg shadow-lg rounded-sm hover:bg-orange-500 focus:outline-none focus:shadow-outline"
-              >Kontakt mig</a
+              class="bg-orange-400 text-black py-2 px-6 inline-block text-center text-xl shadow-lg rounded-sm hover:bg-orange-500 focus:outline-none focus:shadow-outline"
+              >Kontakt BIM Bureauet</a
             >
           </div>
         </div>
